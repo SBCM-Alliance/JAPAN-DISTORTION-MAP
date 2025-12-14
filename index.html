@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to SBCM Global Scanner...</title>
+    
+    <!-- 1. SEO: 検索エンジンに新URLが正規であることを伝える -->
+    <link rel="canonical" href="https://sbcm-alliance.github.io/SBCM-Global-Scanner/">
+    
+    <!-- 2. Meta Refresh: JS無効環境用の即時転送 -->
+    <meta http-equiv="refresh" content="0;url=https://sbcm-alliance.github.io/SBCM-Global-Scanner/">
+    
+    <!-- 3. JavaScript Redirect: クエリパラメータやハッシュを引き継いで転送 -->
+    <script>
+        // 現在のURLのパラメータ(?abc)やハッシュ(#xyz)を保持したまま新URLへ飛ばす
+        var newBaseUrl = "https://sbcm-alliance.github.io/SBCM-Global-Scanner/";
+        window.location.replace(newBaseUrl + window.location.search + window.location.hash);
+    </script>
+    
+    <style>
+        body { background-color: #050505; color: #00ffff; font-family: monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        a { color: #00ff41; }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <p>SYSTEM UPDATE: Repository Renamed.</p>
+        <p>Redirecting to <br><a href="https://sbcm-alliance.github.io/SBCM-Global-Scanner/">SBCM-Global-Scanner</a>...</p>
+    </div>
+</body>
+</html>
