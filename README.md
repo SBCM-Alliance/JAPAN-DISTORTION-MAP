@@ -1,0 +1,2 @@
+# JAPAN-DISTORTION-MAP
+リンク対策用
